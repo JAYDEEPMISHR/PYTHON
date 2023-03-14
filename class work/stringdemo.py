@@ -1,0 +1,26 @@
+s= "Tejendra nagar Part "
+
+print(s)
+print(s.capitalize())
+print(s.casefold())
+print(s.lower())
+print(s.upper())
+print(s.swapcase())
+print("energy conservation & audit".title())
+print(s.center(20,"*"))
+print(s.count("e"))
+print(s.endswith("art"))
+print(s.startswith("Te"))
+print(s.find("agar"))
+print(s.index("j",1))
+print("jd123".isalnum())
+print("pop".isalnum())
+print("123".isalnum())
+print("nearby 123".isalnum())
+print("modern".isalpha())
+print("122".isnumeric())
+print(s.istitle())
+print(" ".isspace())
+
+for i in s:
+    print(i,end=" ")

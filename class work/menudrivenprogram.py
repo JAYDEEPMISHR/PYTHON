@@ -3,16 +3,18 @@ price=0
 totalAmount=0
 quantity=1
 
-print("==========MENU===========")
-print("1. Pizza  Price=180Rs/pcs")
-print("2. Burger Price=100Rs/pcs")
-print("3. Dosa   Price=80Rs/pcs")
-print("4. Idli   Price=50Rs/pcs")
-print("=========================")
+while True:
 
-choice=int(input("Enter Your Choice From Menu(1 to 4): "))
+    print("==========MENU===========")
+    print("1. Pizza  Price=180Rs/pcs")
+    print("2. Burger Price=100Rs/pcs")
+    print("3. Dosa   Price=80Rs/pcs")
+    print("4. Idli   Price=50Rs/pcs")
+    print("=========================")
 
-while choice>0:
+    choice=int(input("Enter Your Choice From Menu(1 to 4): "))
+
+
     
     if choice==1:
         print("********You Choose Pizza********")
